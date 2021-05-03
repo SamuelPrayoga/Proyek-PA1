@@ -147,7 +147,7 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="IsiKomentar" rows="5" placeholder="Message" required></textarea>
               </div>
-                    <div class="form-group mt-3">
+                    <div class="form-group mt-3">- Pilih Foto -
                         <input class="form-control" id="formFileMultiple" required="required"  name="Gambar" type="file" id="formFileMultiple" multiple required>
                     </div>
 

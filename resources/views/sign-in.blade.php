@@ -81,7 +81,7 @@
     <section>
         <div class="form-container">
             <h1>Login Admin</h1>
-        <form action="index.html">
+        <form action="/Admin.indexAdmin">
             <div class="control">
             <label for="name">Username</label>
             <input type="text" id="name" >

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TestimonialController;
@@ -20,8 +21,10 @@ use App\Http\Controllers\ContactController;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/testimonials', [TestimonialController::class, 'index']);
 Route::get('/blog', [WisataController::class, 'index']);
-
 Route::post('/testimonials/store', [ContactController::class, 'store'])->name('testimonials.store');
+Route::get('/infowisata', [AdminController::class, 'wisata']);
+Route::get('/tambahwisata', [AdminController::class, 'tambahwisata']);
+Route::post('/tambahwisatatambah', [AdminController::class, 'tambahwis'])->name('blog.tambah');
 
 Route::get('/about', function () {
     return view('about');
@@ -73,6 +76,10 @@ Route::get('/tables', function () {
     return view('tables');
 });
 
-Route::get('/preferences', function () {
-    return view('preferences');
+Route::get('/Admin.indexAdmin', function () {
+    return view('Admin.indexAdmin');
+});
+
+Route::get('/infowisata', function () {
+    return view('Admin.infowisata');
 });

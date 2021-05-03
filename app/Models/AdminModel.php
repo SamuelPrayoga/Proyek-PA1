@@ -5,9 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Wisata extends Model
+class AdminModel extends Model
 {
     use HasFactory;
-    protected $table = 'datawisata';
-    protected $primaryKey = 'WisataID';
+    protected $table = 'admin';
 }
