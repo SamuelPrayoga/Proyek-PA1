@@ -21,7 +21,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @foreach ($wisata as $wisata)
+                                        @foreach ($wisataa as $wisata)
                                         <tr>
                                             <td>{{$wisata->NamaWisata}}</td>
                                             <td>{{$wisata->InfoWisata}}</td>

@@ -8,33 +8,30 @@ use Illuminate\Support\Facades\DB;
 
 class AdminController extends Controller
 {
-    public function index()
-    {
-        return view('indexAdmin');
-    }
+
     public function wisata()
     {
-        $wisata = DB::table('datawisata')->get();
-        return view('Admin.infowisata', ['datawisata' => $wisata]);
+        $wisataa = DB::table('datawisata')->get();
+        return view('Admin/infowisata', ['wisata' => $wisataa]);
     }
 
     public function tambahwisata()
     {
-        return view('Admin.tambahwisata');
+        return view('Admin/tambahwisata');
     }
 
     public function tambahwis(Request $request)
     {
-        $wisata = new Wisata();
-        $wisata->NamaWisata = $request->NamaWisata;
-        $wisata->InfoWisata = $request->InfoWisata;
+        $wisatatambah = new Wisata();
+        $wisatatambah->NamaWisata = $request->NamaWisata;
+        $wisatatambah->InfoWisata = $request->InfoWisata;
 
         if ($request->hasFile('GambarWisata')) {
             $file = $request->file('GambarWisata')->getClientOriginalName();
-            $request->file('GambarWisata')->move('blog', $file);
-            $wisata->GambarWisata = $file;
+            $request->file('GambarWisata')->move('fileblog', $file);
+            $wisatatambah->GambarWisata = $file;
         }
-        $wisata->save();
+        $wisatatambah->save();
         return redirect('infowisata');
     }
 }
