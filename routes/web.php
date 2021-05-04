@@ -25,6 +25,9 @@ Route::post('/testimonials/store', [ContactController::class, 'store'])->name('t
 Route::get('/infowisata', [AdminController::class, 'Wisata']);
 Route::get('/tambahwisata', [AdminController::class, 'tambahwisata']);
 Route::post('/tambahwisatatambah', [AdminController::class, 'tambahwis'])->name('blog.tambah');
+Route::get('/infowisata/editwisata/{wisataID}', [AdminController::class, 'edit']);
+Route::post('/updateWisata/{wisataID}', [AdminController::class, 'update'])->name('infowisata.update');
+Route::get('infowisata/delete/{wisataID}', [AdminController::class, 'delete'])->name('infowisata.delete');
 
 Route::get('/about', function () {
     return view('about');
@@ -78,8 +81,4 @@ Route::get('/tables', function () {
 
 Route::get('/Admin.indexAdmin', function () {
     return view('Admin.indexAdmin');
-});
-
-Route::get('/infowisata', function () {
-    return view('Admin.infowisata');
 });

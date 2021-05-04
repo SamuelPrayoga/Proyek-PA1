@@ -8,7 +8,7 @@
     <title>Halaman Admin</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="Admin/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('Admin')}}/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="Admin/css/style.css">
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
         crossorigin="anonymous" />
-    <script src="Admin/js/bootstrap.min.js"></script>
+    <script src="{{asset('Admin')}}/js/bootstrap.min.js"></script>
     <!-- Favicon and touch icons -->
 </head>
 
@@ -39,13 +39,13 @@
 
             <ul class="list-unstyled menu-elements">
                 <li>
-                    <a class="scroll-link" href="/daftarproduk"><i class="fas fa-pencil-alt"></i>Data Wisata</a>
+                    <a class="scroll-link" href="/infowisata"><i class="fas fa-map-marked"></i>Data Wisata</a>
                 </li>
                 <li>
-                    <a class="scroll-link" href="/verifikasiakun"><i class="fas fa-user-cog"></i>Komentar dan Saran</a>
+                    <a class="scroll-link" href="/verifikasiakun"><i class="fas fa-comment"></i>Komentar dan Saran</a>
                 </li>
                 <li>
-                    <a class="scroll-link" href="/daftarpemesanan"><i class="fas fa-user-cog"></i>Struktur Organisasi</a>
+                    <a class="scroll-link" href="/daftarpemesanan"><i class="fas fa-sitemap"></i>Struktur Organisasi</a>
                 </li>
                 <li>
                     <a class="scroll-link" href="#section-6"><i class="fas fa-sign-out-alt"></i>Log Out</a>

@@ -13,12 +13,12 @@
                     <label class="col-sm-3 col-form-label">Nama Wisata</label>
                     <div class="col-sm-9">
                         <input type="text" required="required" id="nama" name="NamaWisata" class="form-control" >
-                    </div>
+                </div>
                 </div>
                 <div class="mb-3 row">
                     <label class="col-sm-3 col-form-label">Info Wisata</label>
                     <div class="col-sm-9">
-                        <textarea name="InfoWisata" id="" cols="20" rows="2" style="width: 100%;"></textarea>
+                        <textarea name="InfoWisata" id="" cols="20" rows="5" style="width: 100%;"></textarea>
                     </div>
                 </div>
                     <div class="mb-3 row">

@@ -5,7 +5,7 @@
                     <div class="card mb-4">
                         <div class="card-header">
                             <i class="fas fa-table mr-1"></i>
-                            Daftar Desa Wisata
+                            Daftar Objek Wisata
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -26,12 +26,11 @@
                                             <td>{{$wisata->WisataID}}</td>
                                             <td>{{$wisata->NamaWisata}}</td>
                                             <td>{{$wisata->InfoWisata}}</td>
-                                            <td>{{$wisata->GambarWisata}}</td>
-                                            <td><img src="" width="80px" height="80px" alt=""></td>
-                                            <td width="20%"><button type="button" class="btn btn-primary" onclick="window.location.href='/daftarproduk/edit/'"><i
+                                            <td><img src="{{url('img/blog/'.$wisata->GambarWisata)}}" width="80px" height="80px" alt=""></td>
+                                            <td width="20%"><button type="button" class="btn btn-primary" onclick="window.location.href='/infowisata/editwisata/{{$wisata->WisataID}}'"><i
                                                         class="fas fa-edit"></i>
                                                     Edit</button>
-                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal" ><i class="fas fa-trash-alt"></i>
+                                                <button type="button" class="btn btn-danger" onclick="window.location.href='/infowisata/delete/{{$wisata->WisataID}}'" ><i class="fas fa-trash-alt"></i>
                                                     Hapus</button>
                                             </td>
                                         </tr>
@@ -43,28 +42,7 @@
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-info"><i class="fas fa-plus"></i> Tambah Produk</button>
+            <button type="button" class="btn btn-info" onclick="window.location.href='/tambahwisata'"><i class="fas fa-plus"></i> Tambah Data Wisata</button>
 
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-
-          <h4 class="modal-title">Hapus Data</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body">
-          <p>Anda ingin menghapusnya?</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-danger">Hapus</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
 @include('admin.footerAdmin')

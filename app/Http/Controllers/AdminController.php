@@ -28,10 +28,44 @@ class AdminController extends Controller
 
         if ($request->hasFile('GambarWisata')) {
             $file = $request->file('GambarWisata')->getClientOriginalName();
-            $request->file('GambarWisata')->move('fileblog', $file);
+            $request->file('GambarWisata')->move('img/blog', $file);
             $wisatatambah->GambarWisata = $file;
         }
         $wisatatambah->save();
         return redirect('infowisata');
+    }
+
+
+    public function edit($wisataID)
+    {
+        $editwisata = Wisata::find($wisataID);
+
+        return view('Admin.editwisata', compact('editwisata'));
+    }
+    public function update(Request $request, $wisataID)
+    {
+        $update = Wisata::find($wisataID);
+        $file = $update->GambarWisata;
+
+        if ($request->hasFile('GambarWisata')) {
+            $file = $request->file('GambarWisata')->getClientOriginalName();
+            $request->file('GambarWisata')->move('gambarwisata', $file);
+            $update->GambarWisata = $file;
+        }
+
+        $update->NamaWisata = $request->NamaWisata;
+        $update->InfoWisata = $request->InfoWisata;
+        $update->GambarWisata = $file;
+        $update->save();
+
+        return redirect('infowisata');
+    }
+
+    public function delete($wisataID)
+    {
+        $deletewisata = Wisata::find($wisataID);
+        if ($deletewisata->delete()) {
+            return redirect()->back();
+        }
     }
 }
