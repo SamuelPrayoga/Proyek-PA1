@@ -8,16 +8,16 @@
     <title>Halaman Admin</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{asset('Admin')}}/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('Admin')}}/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="Admin/css/style.css">
+    <link rel="stylesheet" href="{{asset('Admin')}}/css/style.css">
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
         crossorigin="anonymous" />
-    <script src="{{asset('Admin')}}/js/bootstrap.min.js"></script>
+    <script src="{{asset('Admin')}}/bootstrap/js/bootstrap.min.js"></script>
     <!-- Favicon and touch icons -->
 </head>
 
