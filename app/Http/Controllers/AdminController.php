@@ -11,8 +11,8 @@ class AdminController extends Controller
 
     public function wisata()
     {
-        $wisataa = DB::table('datawisata')->get();
-        return view('Admin/infowisata', ['wisata' => $wisataa]);
+        $wisata = DB::table('datawisata')->get();
+        return view('Admin/infowisata', ['wisata' => $wisata]);
     }
 
     public function tambahwisata()

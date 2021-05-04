@@ -22,7 +22,7 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/testimonials', [TestimonialController::class, 'index']);
 Route::get('/blog', [WisataController::class, 'index']);
 Route::post('/testimonials/store', [ContactController::class, 'store'])->name('testimonials.store');
-Route::get('/infowisata', [AdminController::class, 'wisata']);
+Route::get('/infowisata', [AdminController::class, 'Wisata']);
 Route::get('/tambahwisata', [AdminController::class, 'tambahwisata']);
 Route::post('/tambahwisatatambah', [AdminController::class, 'tambahwis'])->name('blog.tambah');
 
