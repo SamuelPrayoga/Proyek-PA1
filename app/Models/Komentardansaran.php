@@ -9,4 +9,5 @@ class Komentardansaran extends Model
 {
     use HasFactory;
     protected $table = 'komentardansaran';
+    protected $primaryKey = 'KomentarID';
 }

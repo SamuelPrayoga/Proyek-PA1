@@ -30,8 +30,6 @@
             </div>
 				<button type="submit" class="btn btn-success"><i class="fas fa-check"></i> Tambah</button>
             </form>
-
-
         </div>
     </div>
 </div>

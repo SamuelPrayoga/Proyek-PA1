@@ -16,7 +16,7 @@
                 <div class="mb-3 row">
                     <label class="col-sm-3 col-form-label">Info Wisata</label>
                     <div class="col-sm-9">
-                        <textarea name="InfoWisata"  id="formFileMultiple" cols="20" rows="2" style="width: 100%;">{{$editwisata->InfoWisata}}</textarea>
+                        <textarea name="InfoWisata"  id="formFileMultiple" cols="20" rows="5" style="width: 100%;">{{$editwisata->InfoWisata}}</textarea>
                     </div>
                 </div>
                     <div class="mb-3 row">

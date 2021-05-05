@@ -26,7 +26,7 @@
                                             <td>{{$wisata->WisataID}}</td>
                                             <td>{{$wisata->NamaWisata}}</td>
                                             <td>{{$wisata->InfoWisata}}</td>
-                                            <td><img src="{{url('img/blog/'.$wisata->GambarWisata)}}" width="80px" height="80px" alt=""></td>
+                                            <td><img src="{{url('img/blog/'.$wisata->GambarWisata)}}" width="120px" height="90px" alt=""></td>
                                             <td width="20%"><button type="button" class="btn btn-primary" onclick="window.location.href='/infowisata/editwisata/{{$wisata->WisataID}}'"><i
                                                         class="fas fa-edit"></i>
                                                     Edit</button>

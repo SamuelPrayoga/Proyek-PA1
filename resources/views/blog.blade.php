@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Blog - Sailor Bootstrap Template</title>
+  <title>Sistem Informasi Desa Wisata Aek Situmandi-Tempat Wisata</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -58,10 +58,7 @@
             </ul>
           </li>
           <li><a href="/services">Layanan dan Visi & Misi</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/pricing">Pricing</a></li>
           <li><a href="/blog" class="active">Tempat Wisata</a></li>
-
           <li><a href="/contact">Contact</a></li>
           <li><a href="/sign-in" class="getstarted">Login Admin</a></li>
         </ul>
@@ -78,7 +75,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Blog</h2>
+          <h2>Daftar Wisata</h2>
           <ol>
             <li><a href="/">Home</a></li>
             <li>Tempat Wisata</li>
@@ -109,9 +106,6 @@
                 <p>
                     {{$wisatas->InfoWisata}}
                 </p>
-                <div class="read-more">
-                  <a href="/blog-single">Selengkapnya</a>
-                </div>
               </div>
 
             </article>

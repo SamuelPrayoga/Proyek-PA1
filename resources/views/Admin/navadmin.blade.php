@@ -42,10 +42,10 @@
                     <a class="scroll-link" href="/infowisata"><i class="fas fa-map-marked"></i>Data Wisata</a>
                 </li>
                 <li>
-                    <a class="scroll-link" href="/verifikasiakun"><i class="fas fa-comment"></i>Komentar dan Saran</a>
+                    <a class="scroll-link" href="/datakomentar"><i class="fas fa-comment"></i>Komentar dan Saran</a>
                 </li>
                 <li>
-                    <a class="scroll-link" href="/daftarpemesanan"><i class="fas fa-sitemap"></i>Struktur Organisasi</a>
+                    <a class="scroll-link" href="/dataorganisasi"><i class="fas fa-sitemap"></i>Struktur Organisasi</a>
                 </li>
                 <li>
                     <a class="scroll-link" href="#section-6"><i class="fas fa-sign-out-alt"></i>Log Out</a>

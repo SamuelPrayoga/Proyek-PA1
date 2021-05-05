@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Services - Sailor Bootstrap Template</title>
+  <title>Sistem Informasi Desa Wisata Aek Situmandi-Visi dan Misi</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -58,8 +58,6 @@
             </ul>
           </li>
           <li><a href="/services" class="active">Layanan dan Visi & Misi</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/pricing">Pricing</a></li>
           <li><a href="/blog">Tempat Wisata</a></li>
 
           <li><a href="/contact">Contact</a></li>
