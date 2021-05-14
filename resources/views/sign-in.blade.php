@@ -131,11 +131,6 @@
                             </div>
                     </div>
                 </div>
-                @if (Route::has('password.request'))
-                <a class="btn btn-link" href="{{ route('password.request') }}">
-                    {{ __('Lupa Password ?') }}
-                </a>
-            @endif
             </form>
             <br>
         <p><a href="/">Sistem Informasi Desa Wisata Aek Situmandi</a></p>
