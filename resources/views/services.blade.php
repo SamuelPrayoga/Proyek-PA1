@@ -52,15 +52,15 @@
 
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="/about">About</a></li>
-              <li><a href="/team">Struktur Organisasi</a></li>
-              <li><a href="/testimonials">Testimonials</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/strukturorganisasi">Struktur Organisasi</a></li>
+              <li><a href="/testimonials">Komentar dan Saran</a></li>
             </ul>
           </li>
-          <li><a href="/services" class="active">Layanan dan Visi & Misi</a></li>
+          <li><a href="/visidanmisi" class="active">Visi dan Misi</a></li>
           <li><a href="/blog">Tempat Wisata</a></li>
 
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/contact">Contact Us</a></li>
           <li><a href="/sign-in" class="getstarted">Login Admin</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -76,67 +76,76 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Layanan dan Visi & Misi</h2>
+          <h2>Visi dan Misi</h2>
           <ol>
             <li><a href="/">Home</a></li>
-            <li>Layanan</li>
+            <li>Visi dan Misi</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
+ <!-- ======= Hero Section ======= -->
+ <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-        <div class="row">
-          <div class="col-md-6">
-            <div class="icon-box">
-              <i class="bi bi-briefcase"></i>
-              <h4><a href="#">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="bi bi-card-checklist"></i>
-              <h4><a href="#">Dolor Sitema</a></h4>
-              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="bi bi-bar-chart"></i>
-              <h4><a href="#">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="bi bi-binoculars"></i>
-              <h4><a href="#">Nemo Enim</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="bi bi-brightness-high"></i>
-              <h4><a href="#">Magni Dolore</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="bi bi-calendar4-week"></i>
-              <h4><a href="#">Eiusmod Tempor</a></h4>
-              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(img/slide/gbr1.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Selamat Datang di <span> Visi dan Misi</span></h2>
+                <h2 class="animate__animated animate__fadeInDown">Visi dan Misi Kabupaten Tapanuli Utara - Kelurahan Partali Toruan</span></h2>
             </div>
           </div>
         </div>
 
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(img/slide/gbr2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Kelurahan Hutabarat Partali Toruan</h2>
+              <p class="animate__animated animate__fadeInUp">Wisata ini terletak di Kelurahan Hutabarat Partali Toruan, Kecamatan Tarutung</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(img/slide/gbr3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Tapanuli Utara, Sumatera Utara, Indonesia</h2>
+              <p class="animate__animated animate__fadeInUp">Berada di Kabupaten Tapanuli Utara, Sumatera Utara, Indonesia</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item" style="background-image: url(img/slide/gbr4.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Goa Boru Natumandi</h2>
+                <p class="animate__animated animate__fadeInUp">Goa Legenda Sejarah di Hutabarat Partali Toruan </p>
+              </div>
+            </div>
+          </div>
       </div>
-    </section><!-- End Services Section -->
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
@@ -151,78 +160,84 @@
           <div class="col-lg-3">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Modi sit est</a>
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-5">Visi dan Misi Tapanuli Utara-Kelurahan Partali Toruan</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Unde praesentium sed</a>
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-1">Apa itu Visi ?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Pariatur explicabo vel</a>
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Visi Tapanuli Utara-Kelurahan Partali Toruan</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Nostrum qui quasi</a>
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Apa itu Misi ?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Iusto ut expedita aut</a>
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Misi Tapanuli Utara-Kelurahan Partali Utara</a>
               </li>
             </ul>
           </div>
           <div class="col-lg-9 mt-4 mt-lg-0">
             <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
+                <div class="tab-pane active show" id="tab-5">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <h3>Visi dan Misi Tapanuli Utara-Kelurahan Partali Toruan</h3>
+                        <p>Mengenai visi dan misi kelurahan dan desa wisata ini sejalan dengan visi dan misi kabupaten Tapanuli Utara.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="img/features-5.png" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+              <div class="tab-pane" id="tab-1">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Architecto ut aperiam autem id</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                    <h3>Pengertian Visi</h3>
+                    <p class="fst-italic">Visi adalah tujuan, masa depan, cita-cita, hal yang ingin dilakukan. Visi terdiri dari beberapa kalimat atau pernyataan biasanya satu deret kalimat atau poin yang jelas, padat dan mewakili segalanya. </p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="img/features-1.png" alt="" class="img-fluid">
+                    <img src="img/favicon.png" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-2">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Et blanditiis nemo veritatis excepturi</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                    <h3>Visi Tapanuli Utara - Partali Toruan</h3>
+                    <p>Tapanuli Utara sebagai Lumbung Pangan dan Lumbung Sumberdaya Manusia Yang Berkualitas serta Daerah Wisata</p>
+                    <p><a href="https://www.taputkab.go.id/page/v/visi-misi">Cek Selengkapnya...</a></p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="img/features-2.png" alt="" class="img-fluid">
+                    <img src="img/features-5.png" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-3">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                    <h3>Pengertian Misi</h3>
+                    <p class="fst-italic">Misi adalah prioritas, metode, atau nilai-nilai kerja yang menjadi landasan untuk memberi petunjuk garis besar dalam mewujudkan sebuah visi. Walaupun perbedaan visi dan misi cukup membuat kita bingung, namun misi dan visi merupakan suatu kesatuan yang harus seiring sejalan. Jadi dapat disimpulkan bahwa misi adalah pernyataan yang menetapkan tujuan dan sasaran, apa, mengapa dan bagaimana demi merangsang adanya pencapaian visi utama.</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="img/features-3.png" alt="" class="img-fluid">
+                    <img src="img/favicon.png" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-4">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="img/features-4.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-5">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                    <h3>Misi Tapanuli Utara - Partali Toruan</h3>
+                    <ul>
+                        <li>Meningkatkan ketahanan pangan dan kesejahteraan petani melalui perlindungan petani dan lahan pertanian berkelanjutan.</li>
+                        <li>Pengembangan komoditi dan produk unggulan daerah berbasis pertanian dan sumber daya lokal.</li>
+                        <li>Meningkatkan kualitas layanan pendidikan dan kesehatan.</li>
+                        <li>Meningkatkan kualitas dan daya saing sdm melalui pelatihan tenaga kerja, pemanfaatan iptek dan pengembangan jiwa kewirausahaan.</li>
+                        <li>Meningkatkan destinasi wisata melalui pengembangan kawasan wisata alam dan budaya, rohani dan agrowisata.</li>
+                        <li>Meningkatkan kualitas infrastruktur yang terintegrasi dengan mengacu pada penataan ruang/wilayah, perlindungan sumber daya alam dan pelestarian lingkungan hidup.</li>
+                        <li>Meningkatkan kapasitas desa menuju desa mandiri.</li>
+                        <li>Meningkatkan kualitas pelayanan publik dengan sistem e-government.</li>
+                    </ul>
+                    <p><a href="https://www.taputkab.go.id/page/v/visi-misi">Cek Selengkapnya...</a></p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="img/features-5.png" alt="" class="img-fluid">
@@ -238,76 +253,14 @@
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>Sailor</h3>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
+<!-- ======= Footer ======= -->
+<footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Sailor</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Kelompok 10 PA 1 IT Del</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/sailor-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Kelompok 10 PA 1 </a>
       </div>
     </div>
   </footer><!-- End Footer -->

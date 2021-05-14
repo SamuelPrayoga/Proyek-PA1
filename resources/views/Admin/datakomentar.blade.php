@@ -13,7 +13,6 @@
                                     cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>No</th>
                                             <th>Username</th>
                                             <th>Email</th>
                                             <th>User Address</th>
@@ -21,23 +20,24 @@
                                             <th>Isi Komentar</th>
                                             <th>Tanggal Komentar</th>
                                             <th>Gambar</th>
+                                            <th>Reply</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         @foreach($komentardansaran as $y)
                                         <tr>
-                                            <td>{{$y->KomentarID}}</td>
                                             <td>{{$y->Username}}</td>
                                             <td>{{$y->Email}}</td>
                                             <td>{{$y->UserAddress}}</td>
                                             <td>{{$y->SubjekKomentar}}</td>
                                             <td width="100%">{{$y->IsiKomentar}}</td>
                                             <td>{{$y->TanggalKomentar}}</td>
-                                            <td><img src="{{url('img/Testimonial/'.$y->Gambar)}}" width="80px" height="80px" alt=""></td>
-                                            <td width="20%"><button type="button" class="btn btn-primary" onclick="window.location.href='/editkomentar/{{$y->KomentarID}}'"><i
-                                                        class="fas fa-edit"></i>
-                                                    Edit</button>
+                                            <td><img src="{{url('img/Testimonial/'.$y->Gambar)}}" width="200px" height="120px" alt=""></td>
+                                            <td>{{$y->reply}}</td>
+                                            <td width="20%"><button type="button" class="btn btn-info" onclick="window.location.href='/editkomentar/{{$y->KomentarID}}'"><i
+                                                        class="fas fa-reply"></i>
+                                                    Reply</button>
                                                 <button type="button" class="btn btn-danger" onclick="window.location.href='/hapuskomentar/{{$y->KomentarID}}'" ><i class="fas fa-trash-alt"></i>
                                                     Hapus</button>
                                             </td>
@@ -50,7 +50,7 @@
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-info" onclick="window.location.href='/tambahkomentar'"><i class="fas fa-plus"></i> Tambah Data Komentar</button>
+            <button type="button" class="btn btn-primary" onclick="window.location.href='/tambahkomentar'"><i class="fas fa-plus"></i> Tambah Data Komentar</button>
 
 
 @include('admin.footerAdmin')

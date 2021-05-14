@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,26 +17,27 @@
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
         crossorigin="anonymous" />
     <script src="{{asset('Admin')}}/bootstrap/js/bootstrap.min.js"></script>
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
     <!-- Favicon and touch icons -->
 </head>
 
 <body>
     <!-- Wrapper -->
     <div class="wrapper">
-
         <!-- Sidebar -->
         <nav class="sidebar">
-
             <!-- close sidebar menu -->
             <div class="dismiss">
                 <i class="fas fa-arrow-left"></i>
             </div>
-
             <div class="logo">
-                <h1></h1>
+                <h1>AEK SITUMANDI</h1>
             </div>
-
             <ul class="list-unstyled menu-elements">
+                <li>
+                    <a class="scroll-link"><i class="fas fa-user-cog"></i>Selamat Datang,  {{ Auth::user()->name }}</a>
+                </li>
                 <li>
                     <a class="scroll-link" href="/infowisata"><i class="fas fa-map-marked"></i>Data Wisata</a>
                 </li>
@@ -48,11 +48,16 @@
                     <a class="scroll-link" href="/dataorganisasi"><i class="fas fa-sitemap"></i>Struktur Organisasi</a>
                 </li>
                 <li>
-                    <a class="scroll-link" href="#section-6"><i class="fas fa-sign-out-alt"></i>Log Out</a>
+                    <a class="scroll-link" href="{{ route('logout') }}"
+                                  onclick="event.preventDefault();
+                                  document.getElementById('logout-form').submit();">
+                     <i class="fas fa-sign-out-alt"> {{ __('Sign Out') }}</i>
+                 </a>
+                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                     @csrf
+                 </form>
                 </li>
-
             </ul>
-
             <div class="dark-light-buttons">
                 <a class="btn btn-primary btn-customized-4 btn-customized-dark" href="#" role="button">Dark</a>
                 <a class="btn btn-primary btn-customized-4 btn-customized-light" href="#" role="button">Light</a>
@@ -68,10 +73,9 @@
         <div class="content">
 
             <!-- open sidebar menu -->
-            <a class="btn btn-primary btn-customized open-menu" href="#" role="button">
-                <i class="fas fa-align-left"></i> <span>Menu</span>
+            <a class="btn btn-light btn-customized open-menu" href="#" role="button">
+                <i class="fas fa-align-left"></i> <span>MENU</span>
             </a>
-
                     <!-- Top content -->
                     <div class="top-content section-container" id="top-content">
                 <div class="container ">
@@ -80,7 +84,7 @@
                             <h1 class="wow fadeIn">Sistem Informasi Desa Wisata<br><strong>AEK SITUMANDI</strong></h1>
                             <div class="description wow fadeInLeft">
                                 <h2>
-
+                                    Hasil Kerjasama Kelurahan Hutabarat Partali Toruan - Del Institue of Technology (IT DEL)
                                 </h2>
                             </div>
                         </div>

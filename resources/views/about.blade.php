@@ -50,16 +50,16 @@
         <ul>
           <li><a href="/">Home</a></li>
 
-          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="/about" class="active">About</a></li>
-              <li><a href="/team">Struktur Organisasi</a></li>
-              <li><a href="/testimonials">Testimonials</a></li>
+              <li><a href="/about" class="active">About Us</a></li>
+              <li><a href="/strukturorganisasi">Struktur Organisasi</a></li>
+              <li><a href="/testimonials">Komentar dan Saran</a></li>
             </ul>
           </li>
-          <li><a href="/services">Layanan dan Visi & Misi</a></li>
+          <li><a href="/visidanmisi">Visi & Misi</a></li>
           <li><a href="/blog">Tempat Wisata</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/contact">Contact Us</a></li>
           <li><a href="/sign-in" class="getstarted">Login Admin</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -75,10 +75,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>About</h2>
+          <h2>About Us</h2>
           <ol>
             <li><a href="/">Home</a></li>
-            <li>About</li>
+            <li>About Us</li>
           </ol>
         </div>
 
@@ -91,24 +91,19 @@
 
         <div class="row content">
           <div class="col-lg-6">
-            <h2>Eum ipsam laborum deleniti velitena</h2>
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
+            <h2>Tentang Kami :</h2>
+            <h3>Kami adalah Mahasiswa D-IV Teknologi Rekayasa Perangkat Lunak Institut Teknologi Del, Laguboti, Toba.</h3><br>
+            <h3 class="fst-italic">We are D-IV Students of Software Engineering Technology, Del Institute of Technology, Laguboti, Toba.</h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+                Legenda aek situmandi merupakan salah satu bentuk legenda yang dimiliki masyarakat Batak Toba, tepatnya yang berada di Desa Hutabarat, Kecamatan Tarutung, Kabupaten Tapanuli Utara. Penelitian ini bertujuan untuk mengetahui struktur legenda,dan untuk mengetahui pandangan masyarakat Desa Hutabarat terhadap legenda aek situmandi. Susunan cerita dan peristiwa yang terjadi di dalam legenda aek situmandi terstruktur dan diterjemahkan menjadi sebuah cerita serta menggali nilai budaya di dalamnya.
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
+              <li><i class="ri-check-double-line"></i> Legenda Sejarah Batak-Hutabarat</li>
+              <li><i class="ri-check-double-line"></i> Daerah Wisata Alam</li>
+              <li><i class="ri-check-double-line"></i> Berada di Kabupaten Tapanuli Utara</li>
             </ul>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
           </div>
         </div>
 
@@ -121,7 +116,7 @@
 
         <div class="section-title">
           <h2>Team</h2>
-          <p>Our Hardowrking Team</p>
+          <p>Our Hardworking Team</p>
         </div>
 
         <section id="team" class="team ">
@@ -135,12 +130,12 @@
                     <div class="member-info">
                       <h4>Samuel Prayoga Tampubolon</h4>
                       <span>Project Manager,Programmer,System Analyst</span>
-                      <p>Explicabo voluptatem mollitia et repellat</p>
+                      <p class="fst-italic">Del Institute of Technology</p>
                       <div class="social">
-                        <a href=""><i class="ri-twitter-fill"></i></a>
-                        <a href=""><i class="ri-facebook-fill"></i></a>
-                        <a href=""><i class="ri-instagram-fill"></i></a>
-                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                        <a href="https://api.whatsapp.com/send?phone=6282272093950"><i class="ri-whatsapp-fill"></i></a>
+                        <a href="https://www.facebook.com/prayoga.tampubolon.9/"><i class="ri-facebook-fill"></i></a>
+                        <a href="https://www.instagram.com/samueltmp_/"><i class="ri-instagram-fill"></i></a>
+                        <a href="https://www.linkedin.com/in/samuel-tampubolon-a1425a1bb/"> <i class="ri-linkedin-box-fill"></i> </a>
                       </div>
                     </div>
                   </div>
@@ -152,7 +147,7 @@
                     <div class="member-info">
                       <h4>Abram Wirayuda Pane</h4>
                       <span>Programmer</span>
-                      <p>Aut maiores voluptates amet et quis</p>
+                      <p class="fst-italic">Del Institute of Technology</p>
                       <div class="social">
                         <a href=""><i class="ri-twitter-fill"></i></a>
                         <a href=""><i class="ri-facebook-fill"></i></a>
@@ -169,7 +164,7 @@
                     <div class="member-info">
                       <h4>Maria C Sitanggang</h4>
                       <span>System Analyst</span>
-                      <p>Quisquam facilis cum velit laborum corrupti</p>
+                      <p class="fst-italic">Del Institute of Technology</p>
                       <div class="social">
                         <a href=""><i class="ri-twitter-fill"></i></a>
                         <a href=""><i class="ri-facebook-fill"></i></a>
@@ -186,7 +181,7 @@
                     <div class="member-info">
                       <h4>Ita Anjelly Sirait</h4>
                       <span>Technical Document</span>
-                      <p>Dolorum tempora officiis odit laborum officiis</p>
+                      <p class="fst-italic">Del Institute of Technology</p>
                       <div class="social">
                         <a href=""><i class="ri-twitter-fill"></i></a>
                         <a href=""><i class="ri-facebook-fill"></i></a>
@@ -203,7 +198,7 @@
                     <div class="member-info">
                       <h4>Patuan Garcia Situmorang</h4>
                       <span>Tester</span>
-                      <p>Dolorum tempora officiis odit laborum officiis</p>
+                      <p class="fst-italic">Del Institute of Technology</p>
                       <div class="social">
                         <a href=""><i class="ri-twitter-fill"></i></a>
                         <a href=""><i class="ri-facebook-fill"></i></a>
@@ -220,7 +215,7 @@
                     <div class="member-info">
                       <h4>Rosani Sitinjak</h4>
                       <span>Designer</span>
-                      <p>Dolorum tempora officiis odit laborum officiis</p>
+                      <p class="fst-italic">Del Institute of Technology</p>
                       <div class="social">
                         <a href=""><i class="ri-twitter-fill"></i></a>
                         <a href=""><i class="ri-facebook-fill"></i></a>
@@ -239,25 +234,19 @@
     <!-- ======= Our Skills Section ======= -->
     <section id="skills" class="skills">
       <div class="container">
-
         <div class="section-title">
           <h2>Rating Wisata</h2>
           <p>Rating Wisata Aek Situmandi</p>
         </div>
-
         <div class="row skills-content">
-
           <div class="col-lg-6">
-
             <div class="progress">
               <span class="skill">Rating Wisata <i class="val">60%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-
         </div>
-
       </div>
     </section><!-- End Our Skills Section -->
 
@@ -265,73 +254,12 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>Sailor</h3>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Sailor</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Kelompok 10 PA 1 IT Del</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/sailor-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Kelompok 10 PA 1 </a>
       </div>
     </div>
   </footer><!-- End Footer -->

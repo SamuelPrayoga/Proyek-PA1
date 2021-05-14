@@ -3,7 +3,7 @@
 
 <div class="edit">
     <div class="card">
-    <h1>Edit Komentar</h1>
+    <h1>Reply Komentar</h1>
         <div class="card-body">
 
 
@@ -46,13 +46,19 @@
                     </div>
                 </div>
                 <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">Reply Komentar</label>
+                    <div class="col-sm-9">
+                        <textarea name="reply" cols="20" rows="5" style="width: 100%;">{{$editkomentar->reply}}</textarea>
+                    </div>
+                </div>
+                <div class="mb-3 row">
                     <label class="col-sm-3 col-form-label">Gambar</label>
                     <div class="col-sm-9">
                         <input class="form-control" id="formFileMultiple"  name="Gambar" type="file" id="formFileMultiple" multiple >{{$editkomentar->Gambar}}
                     </div>
                 </div>
             </div>
-				<button type="submit" class="btn btn-success"><i class="fas fa-check"></i> Simpan</button>
+				<button type="submit" class="btn btn-success"><i class="fas fa-save"></i> Simpan</button>
             </form>
         </div>
     </div>

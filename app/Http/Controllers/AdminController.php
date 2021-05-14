@@ -37,7 +37,6 @@ class AdminController extends Controller
         return redirect('infowisata');
     }
 
-
     public function edit($wisataID)
     {
         $editwisata = Wisata::find($wisataID);
@@ -125,6 +124,7 @@ class AdminController extends Controller
         $update->UserAddress = $request->UserAddress;
         $update->SubjekKomentar = $request->SubjekKomentar;
         $update->IsiKomentar = $request->IsiKomentar;
+        $update->reply = $request->reply;
         $update->Gambar = $file;
         $update->save();
 
@@ -203,5 +203,10 @@ class AdminController extends Controller
         if ($hapusorganisasi->delete()) {
             return redirect()->back();
         }
+    }
+
+    public function login()
+    {
+        return view('sign-in');
     }
 }

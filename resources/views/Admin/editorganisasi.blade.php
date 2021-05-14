@@ -21,7 +21,7 @@
                         <select class="form-control"  required="required" name="jabatan" aria-label="Default select example" >
                             <option value="{{$editorganisasi->jabatan}}">{{$editorganisasi->jabatan}}</option>
                             <option value="lurah">Lurah</option>
-                            <option value="NON-PNS">Wakil Lurah</option>
+                            <option value="Wakil Lurah">Wakil Lurah</option>
                             <option value="Sekretaris">Sekretaris</option>
                             <option value="Bendahara">Bendahara</option>
                             <option value="Wakil Bendahara">Wakil Bendahara</option>
@@ -33,10 +33,9 @@
                     <label class="col-sm-3 col-form-label">Status</label>
                     <div class="col-sm-9">
                         <select class="form-control"  required="required" name="status" aria-label="Default select example" >
-                            <option value="{{$editorganisasi->status}}">{{$editorganisasi->status}}</option>
-                            <option value="PNS">PNS</option>
-                            <option value="NON-PNS">NON-PNS</option>
-                            <option value="Pegawai">Pegawai</option>
+                            <option value="PNS/ASN">PNS/ASN</option>
+                            <option value="Non-PNS">Non-PNS/ASN</option>
+                            <option value="Pegawai tidak Tetap">Pegawai tidak Tetap</option>
                         </select>
                     </div>
                 </div>
@@ -53,7 +52,7 @@
                     </div>
                 </div>
             </div>
-				<button type="submit" class="btn btn-success"><i class="fas fa-check"></i> Tambah</button>
+				<button type="submit" class="btn btn-success"><i class="fas fa-save"></i> Tambah</button>
             </form>
         </div>
     </div>

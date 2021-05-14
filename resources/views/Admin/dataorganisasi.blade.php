@@ -13,7 +13,6 @@
                                     cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>No</th>
                                             <th>Nama</th>
                                             <th>Jabatan</th>
                                             <th>Status</th>
@@ -25,13 +24,12 @@
                                     <tbody>
                                         @foreach($strukturorganisasi as $org)
                                         <tr>
-                                            <td>{{$org->organisasiID}}</td>
                                             <td>{{$org->nama}}</td>
                                             <td>{{$org->jabatan}}</td>
                                             <td>{{$org->status}}</td>
                                             <td>{{$org->alamat}}</td>
-                                            <td><img src="{{url('img/organisasi/'.$org->gambar)}}" width="80px" height="80px" alt=""></td>
-                                            <td width="20%"><button type="button" class="btn btn-primary" onclick="window.location.href='/editorganisasi/{{$org->organisasiID}}'"><i
+                                            <td><img src="{{url('img/organisasi/'.$org->gambar)}}" width="200px" height="120px" alt=""></td>
+                                            <td width="20%"><button type="button" class="btn btn-warning" onclick="window.location.href='/editorganisasi/{{$org->organisasiID}}'"><i
                                                         class="fas fa-edit"></i>
                                                     Edit</button>
                                                 <button type="button" class="btn btn-danger" onclick="window.location.href='/hapusorganisasi/{{$org->organisasiID}}'" ><i class="fas fa-trash-alt"></i>
@@ -46,7 +44,7 @@
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-info" onclick="window.location.href='/tambahorganisasi'"><i class="fas fa-plus"></i> Tambah Data Komentar</button>
+            <button type="button" class="btn btn-primary" onclick="window.location.href='/tambahorganisasi'"><i class="fas fa-plus"></i> Tambah Data</button>
 
 
 @include('admin.footerAdmin')

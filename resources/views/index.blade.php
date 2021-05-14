@@ -42,15 +42,15 @@
 
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="/about">About</a></li>
-              <li><a href="/team">Struktur Organisasi</a></li>
-              <li><a href="/testimonials">Testimonials</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/strukturorganisasi">Struktur Organisasi</a></li>
+              <li><a href="/testimonials">Komentar dan Saran</a></li>
             </ul>
           </li>
-          <li><a href="/services">Layanan dan Visi & Misi</a></li>
+          <li><a href="/visidanmisi">Visi & Misi</a></li>
           <li><a href="/blog">Tempat Wisata</a></li>
 
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/contact">Contact Us</a></li>
           <li><a href="/sign-in" class="getstarted">Login Admin</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -140,7 +140,8 @@
         <div class="row content">
           <div class="col-lg-6">
             <h2>Desa Wisata Aek Situmandi - Hutabarat Partali Toruan</h2>
-            <p>Berdasarkan Pustaha Batak yang ditulis WM Hutagalung pada 1926 (CV Tulus Jaya 1991), Partali Toruan adalah kampung yang dibuka pertama sekali oleh Parjalaja. Seperti yang sudah kukatakan pada Bagian Pertama tulisan ini, aku tidak tahu sebelum membuka kampung Partali Toruan dari mana Parjalaja datang. Dari Pagar Sinondi atau Onan Runggu Sipahutar kah, atau justru dari daerah lain.  </p>
+            <p>Sebagai Pusat Pemerintahan, Kota Tarutung tidak kalah menarik untuk disambangi. Salah satunya ialah objek wisata Sungai Aek Situmandi. Objek wisata ini berlokasi di Desa Parbaju Toruan, Kelurahan Hutabarat,Kec.tarutung,Sumatera Utara.
+                Objek wisata ini berasal dari Badan usaha milik desa, yang dikelola oleh Pemerintah Desa Parbaju Toruan. Wisata ini mulai digalakan oleh adanya aktivitas olahraga Arum Jeram.  </p>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>

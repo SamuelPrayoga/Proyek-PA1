@@ -13,7 +13,6 @@
                                     cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>No</th>
                                             <th>Nama Wisata</th>
                                             <th>Info Wisata</th>
                                             <th>Gambar Wisata</th>
@@ -23,11 +22,10 @@
                                     <tbody>
                                         @foreach ($wisata as $wisata)
                                         <tr>
-                                            <td>{{$wisata->WisataID}}</td>
                                             <td>{{$wisata->NamaWisata}}</td>
                                             <td>{{$wisata->InfoWisata}}</td>
                                             <td><img src="{{url('img/blog/'.$wisata->GambarWisata)}}" width="120px" height="90px" alt=""></td>
-                                            <td width="20%"><button type="button" class="btn btn-primary" onclick="window.location.href='/infowisata/editwisata/{{$wisata->WisataID}}'"><i
+                                            <td width="20%"><button type="button" class="btn btn-warning" onclick="window.location.href='/infowisata/editwisata/{{$wisata->WisataID}}'"><i
                                                         class="fas fa-edit"></i>
                                                     Edit</button>
                                                 <button type="button" class="btn btn-danger" onclick="window.location.href='/infowisata/delete/{{$wisata->WisataID}}'" ><i class="fas fa-trash-alt"></i>
@@ -42,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-info" onclick="window.location.href='/tambahwisata'"><i class="fas fa-plus"></i> Tambah Data Wisata</button>
+            <button type="button" class="btn btn-primary" onclick="window.location.href='/tambahwisata'"><i class="fas fa-plus"></i> Tambah Data Wisata</button>
 
 
 @include('admin.footerAdmin')

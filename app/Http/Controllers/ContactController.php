@@ -19,6 +19,7 @@ class ContactController extends Controller
         $testimonials->UserAddress = $request->UserAddress;
         $testimonials->SubjekKomentar = $request->SubjekKomentar;
         $testimonials->IsiKomentar = $request->IsiKomentar;
+        $testimonials->reply = $request->reply;
         $testimonials->TanggalKomentar = now();
 
 
