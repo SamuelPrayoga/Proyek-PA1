@@ -10,7 +10,7 @@ class TestimonialController extends Controller
 {
     public function index()
     {
-        $testimonials = DB::table('komentardansaran')->paginate(2);
+        $testimonials = DB::table('komentardansaran')->paginate(6);
         return view('testimonials', ['testimonials' => $testimonials]);
     }
 }

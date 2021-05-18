@@ -28,12 +28,6 @@
   <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Sailor - v4.1.0
-  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -43,9 +37,6 @@
     <div class="container d-flex align-items-center">
 
       <h1 class="logo me-auto"><a href="/">Wisata aek situmandi</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="/" class="logo me-auto"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
-
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="/">Home</a></li>
@@ -113,6 +104,14 @@
                 {{ $wisata->links() }}
             </div>
           </div><!-- End blog entries list -->
+          <div class="col-lg-4">
+            <div class="sidebar">
+                <h3 class="sidebar-title"><center>KALENDER INDONESIA <br>& <br> HARI BESAR</center></h3>
+                <div>
+                    <iframe src="https://calendar.google.com/calendar/embed?height=700&amp;wkst=1&amp;bgcolor=%23d9232d&amp;ctz=Asia%2FJakarta&amp;src=c2FtdWVsdGFtcHVib2xvbjIwMDJAZ21haWwuY29t&amp;src=aWQuaW5kb25lc2lhbiNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;hl=id" style="border:solid 1px #777" width="363" height="700" frameborder="0" scrolling="yes"></iframe>
+                </div>
+                <p><a href="/">Sistem Informasi Desa Wisata Aek Situmandi</a></p>
+            </div><!-- End sidebar -->
           </div><!-- End blog sidebar -->
         </div>
 

@@ -20,12 +20,12 @@
                     <div class="col-sm-9">
                         <select class="form-control"  required="required" name="jabatan" aria-label="Default select example" >
                             <option value="{{$editorganisasi->jabatan}}">{{$editorganisasi->jabatan}}</option>
-                            <option value="lurah">Lurah</option>
-                            <option value="Wakil Lurah">Wakil Lurah</option>
-                            <option value="Sekretaris">Sekretaris</option>
-                            <option value="Bendahara">Bendahara</option>
-                            <option value="Wakil Bendahara">Wakil Bendahara</option>
-                            <option value="Anggota">Anggota</option>
+                            <option value="Lurah">Lurah</option>
+                            <option value="Sekretaris Lurah">Sekretaris Lurah</option>
+                            <option value="Kasi. Pemerintahan">Kasi. Pemerintahan</option>
+                            <option value="Kasi. Pembangunan">Kasi. Pembangunan</option>
+                            <option value="Kasi. Pelayanan Umum">Kasi. Pelayanan Umum</option>
+                            <option value="STAF">STAF</option>
                         </select>
                     </div>
                 </div>
@@ -34,8 +34,8 @@
                     <div class="col-sm-9">
                         <select class="form-control"  required="required" name="status" aria-label="Default select example" >
                             <option value="PNS/ASN">PNS/ASN</option>
-                            <option value="Non-PNS">Non-PNS/ASN</option>
-                            <option value="Pegawai tidak Tetap">Pegawai tidak Tetap</option>
+                            <option value="Non-PNS/ASN">Non-PNS/ASN</option>
+                            <option value="Pegawai Tidak Tetap">Pegawai Tidak Tetap</option>
                         </select>
                     </div>
                 </div>

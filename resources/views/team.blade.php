@@ -27,13 +27,6 @@
 
   <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Sailor - v4.1.0
-  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -43,8 +36,6 @@
     <div class="container d-flex align-items-center">
 
       <h1 class="logo me-auto"><a href="/">Wisata aek situmandi</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="/" class="logo me-auto"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -93,12 +84,12 @@
       <div class="carousel-inner" role="listbox">
 
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(img/slide/gbr1.jpg)">
+        <div class="carousel-item active" style="background-image: url(img/slide/kantor.jpg)">
           <div class="carousel-container">
             <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">Horas ...</span></h2>
               <h2 class="animate__animated animate__fadeInDown">Selamat Datang di <span>Struktur Organisasi</span></h2>
-              <p class="animate__animated animate__fadeInUp">Wisata Aek Situmandi</p>
+              <h2 class="animate__animated animate__fadeInUp">Kantor Kelurahan Partali Toruan</h2>
             </div>
           </div>
         </div>
@@ -119,7 +110,7 @@
             <table class="table table-bordered table-striped" id="dataTable" width="100%"
                 cellspacing="0">
                 <thead>
-                    <center><h2>Struktur Organisasi Kelurahan Hutabarat Partali Toruan - Kab. Tapanuli Utara</h2></center><br>
+                    <center><h2>STRUKTUR ORGANISASI KELURAHAN PARTALI TORUAN  KABUPATEN TAPANULI UTARA</h2></center><br>
                     <tr>
                         <th><center>Nama</center></th>
                         <th><center>Jabatan</center></th>
@@ -135,7 +126,7 @@
                         <td>{{$s->jabatan}}</td>
                         <td>{{$s->status}}</td>
                         <td>{{$s->alamat}}</td>
-                        <td><img src="{{url('img/organisasi/'.$s->gambar)}}" width="200px" height="120px" style=border-radius:5% alt=""></td>
+                        <td><img src="{{url('img/organisasi/'.$s->gambar)}}" width="200px" height="220px" style=border-radius:5% alt=""></td>
                     </tr>
                     @endforeach
                 </tbody>

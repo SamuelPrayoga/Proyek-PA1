@@ -19,7 +19,7 @@
             color: #fff;
         }
         section{
-            background: url("img/Admin/bg2.jpg");
+            background: url("img/Admin/bg.jpg");
             height: 100vh;
             width: 100%;
             background-size: cover;

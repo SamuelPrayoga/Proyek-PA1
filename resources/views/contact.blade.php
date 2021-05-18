@@ -28,12 +28,6 @@
   <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Sailor - v4.1.0
-  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -43,8 +37,6 @@
     <div class="container d-flex align-items-center">
 
       <h1 class="logo me-auto"><a href="/">Wisata aek situmandi</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="/" class="logo me-auto"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -149,7 +141,7 @@
                         <input class="form-control" id="formFileMultiple" required="required"  name="Gambar" type="file" id="formFileMultiple" multiple required>
                     </div>
 
-              <div class="form-group mt-3"><button type="submit" class="btn btn-danger">Kirim Pesan</button></div>
+              <div class="form-group mt-3"><button type="submit" class="btn btn-danger">Kirim</button></div>
             </form>
 
           </div>
