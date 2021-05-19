@@ -225,10 +225,10 @@
                         <li>Pengembangan komoditi dan produk unggulan daerah berbasis pertanian dan sumber daya lokal.</li>
                         <li>Meningkatkan kualitas layanan pendidikan dan kesehatan.</li>
                         <li>Meningkatkan kualitas dan daya saing sdm melalui pelatihan tenaga kerja, pemanfaatan iptek dan pengembangan jiwa kewirausahaan.</li>
-                        <li>Meningkatkan destinasi wisata melalui pengembangan kawasan wisata alam dan budaya, rohani dan agrowisata.</li>
-                        <li>Meningkatkan kualitas infrastruktur yang terintegrasi dengan mengacu pada penataan ruang/wilayah, perlindungan sumber daya alam dan pelestarian lingkungan hidup.</li>
+                        <li><strong>Meningkatkan destinasi wisata melalui pengembangan kawasan wisata alam dan budaya, rohani dan agrowisata.</strong></li>
+                        <li><strong> kualitas infrastruktur yang terintegrasi dengan mengacu pada penataan ruang/wilayah, perlindungan sumber daya alam dan pelestarian lingkungan hidup.</strong></li>
                         <li>Meningkatkan kapasitas desa menuju desa mandiri.</li>
-                        <li>Meningkatkan kualitas pelayanan publik dengan sistem e-government.</li>
+                        <li><strong> kualitas pelayanan publik dengan sistem e-government.</strong></li>
                     </ul>
                     <p><a href="https://www.taputkab.go.id/page/v/visi-misi">Cek Selengkapnya...</a></p>
                   </div>
