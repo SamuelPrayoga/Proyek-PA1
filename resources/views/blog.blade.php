@@ -29,7 +29,29 @@
   <link href="css/style.css" rel="stylesheet">
 
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    #watch{
+        font-family: 'Roboto', sans-serif;
+        color: rgb(0, 0, 0);
+        z-index: 1;
+        height: 1.4em;
+        width: 2.4em;
+        overflow: show;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        font-size: 3.5vw;
+        -webkit-text-stroke: 3px rgb(112, 109, 108);
+        text-shadow: 4px 4px 10px rgba(63, 62, 62, 0.4),
+                    4px 4px 20px rgba(48, 48, 48, 0.4),
+                    4px 4px 30px rgba(65, 65, 65, 0.4),
+                    4px 4px 40px rgba(32, 32, 32, 0.4);
+        }
 
+</style>
 <body>
 
   <!-- ======= Header ======= -->
@@ -109,7 +131,10 @@
                 <h3 class="sidebar-title"><center>KALENDER INDONESIA <br>& <br> HARI BESAR</center></h3>
                 <div>
                     <iframe src="https://calendar.google.com/calendar/embed?height=700&amp;wkst=1&amp;bgcolor=%23d9232d&amp;ctz=Asia%2FJakarta&amp;src=c2FtdWVsdGFtcHVib2xvbjIwMDJAZ21haWwuY29t&amp;src=aWQuaW5kb25lc2lhbiNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;hl=id" style="border:solid 1px #777" width="363" height="700" frameborder="0" scrolling="yes"></iframe>
-                </div>
+                </div><br><br><br><br>
+                <center>  GMT-Waktu Indonesia Barat (WIB) </center>
+                <div id="watch">
+                </div><br><br>
                 <p><a href="/">Sistem Informasi Desa Wisata Aek Situmandi</a></p>
             </div><!-- End sidebar -->
           </div><!-- End blog sidebar -->
@@ -146,5 +171,19 @@
   <script src="js/main.js"></script>
 
 </body>
-
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        function clock() {
+          var now = new Date();
+          var secs = ('0' + now.getSeconds()).slice(-2);
+          var mins = ('0' + now.getMinutes()).slice(-2);
+          var hr = now.getHours();
+          var Time = hr + ":" + mins + ":" + secs;
+          document.getElementById("watch").innerHTML = Time;
+          requestAnimationFrame(clock);
+        }
+        requestAnimationFrame(clock);
+    });
+</script>
 </html>

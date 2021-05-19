@@ -28,7 +28,6 @@
   <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
 
   <!-- ======= Header ======= -->
@@ -110,23 +109,24 @@
             <table class="table table-bordered table-striped" id="dataTable" width="100%"
                 cellspacing="0">
                 <thead>
-                    <center><h2>STRUKTUR ORGANISASI KELURAHAN PARTALI TORUAN  KABUPATEN TAPANULI UTARA</h2></center><br>
+                    <strong><center><h2>STRUKTUR ORGANISASI KELURAHAN PARTALI TORUAN  KABUPATEN TAPANULI UTARA</h2></center></strong>
+                    <br>
                     <tr>
+                        <th><center>Foto</center></th>
                         <th><center>Nama</center></th>
                         <th><center>Jabatan</center></th>
                         <th><center>Status</center></th>
                         <th><center>Alamat</center></th>
-                        <th><center>Foto</center></th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach ($struktur as $s)
                     <tr>
+                        <td><img src="{{url('img/organisasi/'.$s->gambar)}}" width="200px" height="220px" style=border-radius:5% alt=""></td>
                         <td>{{$s->nama}}</td>
                         <td>{{$s->jabatan}}</td>
                         <td>{{$s->status}}</td>
                         <td>{{$s->alamat}}</td>
-                        <td><img src="{{url('img/organisasi/'.$s->gambar)}}" width="200px" height="220px" style=border-radius:5% alt=""></td>
                     </tr>
                     @endforeach
                 </tbody>
