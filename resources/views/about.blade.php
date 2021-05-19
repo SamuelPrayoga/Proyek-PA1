@@ -143,10 +143,8 @@
                       <span>Programmer</span>
                       <p class="fst-italic">Del Institute of Technology</p>
                       <div class="social">
-                        <a href=""><i class="ri-twitter-fill"></i></a>
-                        <a href=""><i class="ri-facebook-fill"></i></a>
-                        <a href=""><i class="ri-instagram-fill"></i></a>
-                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                        <a href=" https://wa.me/qr/QXFBSFJQSN4OA1"><i class="ri-whatsapp-fill"></i></a>
+                        <a href="https://www.instagram.com/wirayudaabram/?hl=id"><i class="ri-instagram-fill"></i></a>
                       </div>
                     </div>
                   </div>
@@ -160,10 +158,9 @@
                       <span>System Analyst</span>
                       <p class="fst-italic">Del Institute of Technology</p>
                       <div class="social">
-                        <a href=""><i class="ri-twitter-fill"></i></a>
-                        <a href=""><i class="ri-facebook-fill"></i></a>
-                        <a href=""><i class="ri-instagram-fill"></i></a>
-                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                        <a href="https://web.facebook.com/mariasitanggang.sitanggang.7/"><i class="ri-facebook-fill"></i></a>
+                        <a href=" https://www.instagram.com/maria_chrisyanti/"><i class="ri-instagram-fill"></i></a>
+                        <a href=" https://api.whatsapp.com/send?phone=6282211239282"> <i class="ri-whatsapp-fill"></i> </a>
                       </div>
                     </div>
                   </div>
@@ -177,10 +174,8 @@
                       <span>Technical Document</span>
                       <p class="fst-italic">Del Institute of Technology</p>
                       <div class="social">
-                        <a href=""><i class="ri-twitter-fill"></i></a>
-                        <a href=""><i class="ri-facebook-fill"></i></a>
-                        <a href=""><i class="ri-instagram-fill"></i></a>
-                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                        <a href="https://api.whatsapp.com/send?phone=6281260444605"><i class="ri-whatsapp-fill"></i></a>
+                        <a href=" https://www.instagram.com/itaapsirait/"><i class="ri-instagram-fill"></i></a>
                       </div>
                     </div>
                   </div>
@@ -194,10 +189,9 @@
                       <span>Tester</span>
                       <p class="fst-italic">Del Institute of Technology</p>
                       <div class="social">
-                        <a href=""><i class="ri-twitter-fill"></i></a>
-                        <a href=""><i class="ri-facebook-fill"></i></a>
-                        <a href=""><i class="ri-instagram-fill"></i></a>
-                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                        <a href=" https://api.whatsapp.com/send?phone=6281286077482"><i class="ri-whatsapp-fill"></i></a>
+                        <a href=" https://m.facebook.com/patuan.gtr"><i class="ri-facebook-fill"></i></a>
+                        <a href="https://www.instagram.com/patuangs/"><i class="ri-instagram-fill"></i></a>
                       </div>
                     </div>
                   </div>
@@ -211,10 +205,9 @@
                       <span>Designer</span>
                       <p class="fst-italic">Del Institute of Technology</p>
                       <div class="social">
-                        <a href=""><i class="ri-twitter-fill"></i></a>
-                        <a href=""><i class="ri-facebook-fill"></i></a>
-                        <a href=""><i class="ri-instagram-fill"></i></a>
-                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                        <a href="https://web.facebook.com/rosani.sitinjak/"><i class="ri-facebook-fill"></i></a>
+                        <a href="https://www.instagram.com/rosanisitinjak00/"><i class="ri-instagram-fill"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=6282294589927"> <i class="ri-whatsapp-fill"></i> </a>
                       </div>
                     </div>
                   </div>
@@ -229,19 +222,9 @@
     <section id="skills" class="skills">
       <div class="container">
         <div class="section-title">
-          <h2>Rating Wisata</h2>
-          <p>Rating Wisata Aek Situmandi</p>
+          <h2>Hasil Kerjasama :</h2>
+          <p>Kelurahan Partali Toruan, Kabupaten Tapanuli Utara & Institut Teknologi Del (IT DEL)</p>
         </div>
-        <div class="row skills-content">
-          <div class="col-lg-6">
-            <div class="progress">
-              <span class="skill">Rating Wisata <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-        </div>
-      </div>
     </section><!-- End Our Skills Section -->
 
   </main><!-- End #main -->
