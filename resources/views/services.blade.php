@@ -197,7 +197,7 @@
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>Visi Tapanuli Utara - Partali Toruan</h3>
-                    <p>Tapanuli Utara sebagai Lumbung Pangan dan Lumbung Sumberdaya Manusia Yang Berkualitas serta Daerah Wisata</p>
+                    <p>Tapanuli Utara sebagai Lumbung Pangan dan Lumbung Sumberdaya Manusia Yang Berkualitas serta Daerah tujuan Wisata</p>
                     <p><a href="https://www.taputkab.go.id/page/v/visi-misi">Cek Selengkapnya...</a></p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
