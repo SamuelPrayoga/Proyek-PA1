@@ -94,10 +94,10 @@
                 {{$testimonial->IsiKomentar}}
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p><br>
-              <h4>Alamat : {{$testimonial->UserAddress}}</h4>
+              <h4>Alamat : {{$testimonial->UserAddress}}</h4><br>
               <h4>Tanggal Komentar : {{$testimonial->TanggalKomentar}}</h4>
             </div>
-            <div class="testimonial-item"><i class="fas fa-reply"></i>  Reply for : {{$testimonial->Email}}
+            <div class="testimonial-item"><i class="fas fa-reply"></i>  Reply to : {{$testimonial->Email}}
                 <textarea class="form-control" name="reply" rows="4" readonly>{{$testimonial->reply}}</textarea>
             </div>
           </div>

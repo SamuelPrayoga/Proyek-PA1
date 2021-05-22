@@ -118,6 +118,16 @@
               </div>
             </div>
           </div>
+
+            <!-- Slide 6 -->
+        <div class="carousel-item" style="background-image: url(img/slide/gbr6.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Pemandian Air Panas</h2>
+                <p class="animate__animated animate__fadeInUp">Kelurahan Partali Toruan</p>
+              </div>
+            </div>
+          </div>
       </div>
 
       <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
