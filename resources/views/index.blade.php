@@ -150,8 +150,8 @@
         <div class="row content">
           <div class="col-lg-6">
             <h2>Desa Wisata Aek Situmandi - Hutabarat Partali Toruan</h2>
-            <p>Sebagai Pusat Pemerintahan, Kota Tarutung tidak kalah menarik untuk disambangi. Salah satunya ialah objek wisata Sungai Aek Situmandi. Objek wisata ini berlokasi di Desa Parbaju Toruan, Kelurahan Hutabarat,Kec.tarutung,Sumatera Utara.
-                Objek wisata ini berasal dari Badan usaha milik desa, yang dikelola oleh Pemerintah Desa Parbaju Toruan. Wisata ini mulai digalakan oleh adanya aktivitas olahraga Arum Jeram.  </p>
+            <p>Sebagai Pusat Pemerintahan, Kota Tarutung tidak kalah menarik untuk disambangi. Salah satunya ialah objek wisata Sungai Aek Situmandi. Objek wisata ini berlokasi di Kelurahan Hutabarat,Kecamatan Tarutung, Tapanuli Utara Sumatera Utara.
+                Objek wisata ini berasal dari Badan usaha milik desa, yang dikelola oleh Pemerintah Desa Parbaju Toruan. Wisata ini mulai digalakan oleh adanya aktivitas olahraga Arung Jeram.  </p>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
@@ -210,8 +210,8 @@
           <div class="col-md-6 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="bi bi-water"></i>
-              <h4><a href="#">Wisata Air</a></h4>
-              <p>Wisata Aek Situmandi ini memiliki wisata air yaitu wisata arung jeram yang cukup extreme di sungai aek situmandi</p>
+              <h4><a href="#">Wisata Air dan Pemandian Air Panas</a></h4>
+              <p>Wisata Aek Situmandi ini memiliki wisata air yaitu wisata arung jeram yang cukup extreme di sungai aek situmandi dan juga Pemandian Air panas</p>
             </div>
           </div>
         </div>
