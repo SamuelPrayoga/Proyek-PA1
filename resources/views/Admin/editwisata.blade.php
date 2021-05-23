@@ -33,4 +33,4 @@
     </div>
 </div>
 
-@include('admin.footerAdmin')
+@include('Admin.footerAdmin')

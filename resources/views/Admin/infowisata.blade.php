@@ -43,4 +43,4 @@
             <button type="button" class="btn btn-primary" onclick="window.location.href='/tambahwisata'"><i class="fas fa-plus"></i> Tambah Data Wisata</button>
 
 
-@include('admin.footerAdmin')
+@include('Admin.footerAdmin')

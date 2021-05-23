@@ -120,7 +120,7 @@
 
                 <div class="col-lg-6">
                   <div class="member d-flex align-items-start">
-                    <div class="pic"><img src="img/team/Team-1.png" class="img-fluid" alt=""></div>
+                    <div class="pic"><img src="img/team/Team-1.jpg" class="img-fluid" alt=""></div>
                     <div class="member-info">
                       <h4>Samuel Prayoga Tampubolon</h4>
                       <span>Project Manager,Programmer,System Analyst</span>
@@ -152,7 +152,7 @@
 
                 <div class="col-lg-6 mt-4">
                   <div class="member d-flex align-items-start">
-                    <div class="pic"><img src="img/team/Team-3.png" class="img-fluid" alt=""></div>
+                    <div class="pic"><img src="img/team/Team-3.jpg" class="img-fluid" alt=""></div>
                     <div class="member-info">
                       <h4>Maria C Sitanggang</h4>
                       <span>System Analyst</span>
@@ -168,7 +168,7 @@
 
                 <div class="col-lg-6 mt-4">
                   <div class="member d-flex align-items-start">
-                    <div class="pic"><img src="img/team/team-2.jpg" class="img-fluid" alt=""></div>
+                    <div class="pic"><img src="img/team/Team-2.jpg" class="img-fluid" alt=""></div>
                     <div class="member-info">
                       <h4>Ita Anjelly Sirait</h4>
                       <span>Technical Document</span>

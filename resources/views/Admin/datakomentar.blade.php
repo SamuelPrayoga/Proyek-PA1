@@ -53,4 +53,4 @@
             <button type="button" class="btn btn-primary" onclick="window.location.href='/tambahkomentar'"><i class="fas fa-plus"></i> Tambah Data Komentar</button>
 
 
-@include('admin.footerAdmin')
+@include('Admin.footerAdmin')

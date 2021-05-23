@@ -1,4 +1,4 @@
-@include('admin.navadmin')
+@include('Admin.navadmin')
 
 
 <div class="edit">
@@ -57,4 +57,4 @@
     </div>
 </div>
 
-@include('admin.footeradmin')
+@include('Admin.footerAdmin')
