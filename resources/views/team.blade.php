@@ -112,29 +112,74 @@
                     <strong><center><h2>STRUKTUR ORGANISASI KELURAHAN PARTALI TORUAN  KABUPATEN TAPANULI UTARA</h2></center></strong>
                     <br>
                     <tr>
-                        <th><center>Foto</center></th>
                         <th><center>Nama</center></th>
                         <th><center>Jabatan</center></th>
-                        <th><center>Status</center></th>
-                        <th><center>Alamat</center></th>
+                        <th><center>Informasi</center></th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach ($struktur as $s)
                     <tr>
-                        <td><img src="{{url('img/organisasi/'.$s->gambar)}}" width="200px" height="220px" style=border-radius:5% alt=""></td>
                         <td>{{$s->nama}}</td>
                         <td>{{$s->jabatan}}</td>
-                        <td>{{$s->status}}</td>
-                        <td>{{$s->alamat}}</td>
+                        <td width="20%"><button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal{{$s->organisasiID}}">
+                            <i class="bi bi-info-circle-fill"></i> Lihat Detail
+                          </button></td>
                     </tr>
+
+                    <!-- Modal -->
+                        <div class="modal fade" id="exampleModal{{$s->organisasiID}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"><strong>Informasi Detail - Struktur Organisasi</strong></h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-4"><strong>Nama</strong></div>
+                                    <div class="col-sm-2">:</div>
+                                    <div class="col-md-6">{{$s->nama}}</div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-4"><strong>Jabatan</strong></div>
+                                    <div class="col-sm-2">:</div>
+                                    <div class="col-md-6">{{$s->jabatan}}</div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-4"><strong>Status</strong></div>
+                                    <div class="col-sm-2">:</div>
+                                    <div class="col-md-6">{{$s->status}}</div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-4"><strong>Alamat</strong></div>
+                                    <div class="col-sm-2">:</div>
+                                    <div class="col-md-6">{{$s->alamat}}</div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-4"><strong>Gambar</strong></div>
+                                    <div class="col-sm-2">:</div>
+                                    <div class="col-md-6"><img src="{{url('img/organisasi/'.$s->gambar)}}" width="200px" height="220px" style=border-radius:5% alt=""></div>
+                                </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> Kembali</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     @endforeach
                 </tbody>
             </table>
         </div>
     </div>
   </main><!-- End #main -->
-
+  <!-- Button trigger modal -->
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">

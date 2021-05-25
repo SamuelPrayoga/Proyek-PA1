@@ -123,7 +123,7 @@
                     <div class="pic"><img src="img/team/Team-1.jpg" class="img-fluid" alt=""></div>
                     <div class="member-info">
                       <h4>Samuel Prayoga Tampubolon</h4>
-                      <span>Project Manager,Programmer,System Analyst</span>
+                      <span>Project Manager,Programmer</span>
                       <p class="fst-italic">Del Institute of Technology</p>
                       <div class="social">
                         <a href="https://api.whatsapp.com/send?phone=6282272093950"><i class="ri-whatsapp-fill"></i></a>
