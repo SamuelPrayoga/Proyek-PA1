@@ -122,7 +122,7 @@
                     <tr>
                         <td>{{$s->nama}}</td>
                         <td>{{$s->jabatan}}</td>
-                        <td width="20%"><button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal{{$s->organisasiID}}">
+                        <td width="20%"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal{{$s->organisasiID}}">
                             <i class="bi bi-info-circle-fill"></i> Lihat Detail
                           </button></td>
                     </tr>
