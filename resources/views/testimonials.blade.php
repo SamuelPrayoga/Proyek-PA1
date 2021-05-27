@@ -85,7 +85,7 @@
           @foreach($testimonials as $testimonial)
           <div class="col-lg-6">
             <div class="testimonial-item">
-              <img src="{{asset('img')}}/testimonial/{{$testimonial->Gambar}}" class="testimonial-img" alt="">
+              <img src="{{url('img')}}/testimonial/{{$testimonial->Gambar}}" class="testimonial-img" alt="">
               <h3>{{$testimonial->Username}}</h3>
               <h4>Email : {{$testimonial->Email}}</h4><br>
               <h4>Subjek : {{$testimonial->SubjekKomentar}}</h4>

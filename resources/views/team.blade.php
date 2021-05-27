@@ -163,7 +163,7 @@
                                 <div class="row">
                                     <div class="col-sm-4"><strong>Gambar</strong></div>
                                     <div class="col-sm-2">:</div>
-                                    <div class="col-md-6"><img src="{{url('img/organisasi/'.$s->gambar)}}" width="200px" height="220px" style=border-radius:5% alt=""></div>
+                                    <div class="col-md-4"><img src="{{url('img/organisasi/'.$s->gambar)}}" width="200px" height="220px" style=border-radius:5% alt=""></div>
                                 </div>
 
                                 </div>
