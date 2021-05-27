@@ -1,11 +1,10 @@
-@include('admin.navadmin')
+@include('Admin.navadmin')
 
 
 <div class="edit">
     <div class="card">
     <h1>Tambah Wisata</h1>
         <div class="card-body">
-
 
             <form action="{{Route('blog.tambah')}}" method="post" enctype="multipart/form-data">
             {{ csrf_field() }}
