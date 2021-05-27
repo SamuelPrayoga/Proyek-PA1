@@ -103,7 +103,7 @@
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+6281717800182</p>
+                <p>+6282272093950</p>
               </div>
 
               <div class="email">
