@@ -28,7 +28,7 @@
                     </div>
                 </div>
             </div>
-				<button type="submit" class="btn btn-success"><i class="fas fa-save"></i> Tambah</button>
+				<button type="submit" class="btn btn-success"><i class="fas fa-plus"></i> Tambah</button>
             </form>
         </div>
     </div>
