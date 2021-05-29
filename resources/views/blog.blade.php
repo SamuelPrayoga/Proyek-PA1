@@ -111,9 +111,7 @@
               <div class="entry-img">
                 <img src="img/blog/{{$wisatas->GambarWisata}}" alt="" class="img-fluid">
               </div>
-              <h2 class="entry-title">
-                <a href="/blog-single">{{$wisatas->NamaWisata}}</a>
-              </h2>
+              <h2 class="entry-title">{{$wisatas->NamaWisata}}</h2>
               <div class="entry-content">
                 <p>
                     {{$wisatas->InfoWisata}}
