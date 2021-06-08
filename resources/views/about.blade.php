@@ -122,14 +122,13 @@
                   <div class="member d-flex align-items-start">
                     <div class="pic"><img src="img/team/Team-1.jpg" class="img-fluid" alt=""></div>
                     <div class="member-info">
-                      <h4>Samuel Prayoga Tampubolon</h4>
+                      <h4>Samuel P. Tampubolon</h4>
                       <span>Project Manager,Programmer</span>
                       <p class="fst-italic">Del Institute of Technology</p>
                       <div class="social">
                         <a href="https://api.whatsapp.com/send?phone=6282272093950"><i class="ri-whatsapp-fill"></i></a>
                         <a href="https://www.facebook.com/prayoga.tampubolon.9/"><i class="ri-facebook-fill"></i></a>
                         <a href="https://www.instagram.com/samueltmp_/"><i class="ri-instagram-fill"></i></a>
-                        <a href="https://www.linkedin.com/in/samuel-tampubolon-a1425a1bb/"> <i class="ri-linkedin-box-fill"></i> </a>
                       </div>
                     </div>
                   </div>
