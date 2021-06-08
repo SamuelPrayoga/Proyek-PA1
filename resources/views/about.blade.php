@@ -89,7 +89,7 @@
             <h3>Aek/ Sungai Situmandi, salah satu dari dua sungai panjang yang membelah Lembah Silindung atau tepatnya berada di Kecamatan Tarutung Kabupaten Tapanuli Utara Sumut, direkomendasi oleh para penggiat olahraga arung jeram menjadi destinasi berkelas dunia.
                 Arus sungainya yang deras atau sekitar 120-150 meter kubik perdetik, masuk di level grade 3 plus hingga di grade 4 dari grade tertinggi yakni 5.</h3><br>
             <h3 class="fst-italic">The Aek/Situmandi River, one of the two long rivers that divides the Silindung Valley or precisely located in Tarutung District, North Tapanuli Regency, North Sumatra, is recommended by white water rafting activists to become a world-class destination.
-The river currents are heavy, or about 120-150 cubic meters per second, entering the grade 3 plus level up to grade 4 from the highest grade of 5.</h3>
+                The river currents are heavy, or about 120-150 cubic meters per second, entering the grade 3 plus level up to grade 4 from the highest grade of 5.</h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
