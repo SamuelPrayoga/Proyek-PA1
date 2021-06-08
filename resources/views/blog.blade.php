@@ -43,12 +43,8 @@
         left: 0;
         bottom: 0;
         right: 0;
-        font-size: 3.5vw;
-        -webkit-text-stroke: 3px rgb(112, 109, 108);
-        text-shadow: 4px 4px 10px rgba(63, 62, 62, 0.4),
-                    4px 4px 20px rgba(48, 48, 48, 0.4),
-                    4px 4px 30px rgba(65, 65, 65, 0.4),
-                    4px 4px 40px rgba(32, 32, 32, 0.4);
+        font-size: 3.4vw;
+        -webkit-text-stroke: 3px rgb(0, 0, 0);
         }
 
 </style>
@@ -126,12 +122,29 @@
           </div><!-- End blog entries list -->
           <div class="col-lg-4">
             <div class="sidebar">
-                <h3 class="sidebar-title"><center>KALENDER INDONESIA <br>& <br> HARI BESAR</center></h3>
                 <div>
-                    <iframe src="https://calendar.google.com/calendar/embed?height=700&amp;wkst=1&amp;bgcolor=%23d9232d&amp;ctz=Asia%2FJakarta&amp;src=c2FtdWVsdGFtcHVib2xvbjIwMDJAZ21haWwuY29t&amp;src=aWQuaW5kb25lc2lhbiNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;hl=id" style="border:solid 1px #777" width="363" height="700" frameborder="0" scrolling="yes"></iframe>
+                    <?php
+                        echo "You Visit This Web on : " . date("d F Y") . "<br>";
+                    ?><br><br>
+                </div>
+                <!--Link Kategori-->
+                <h3 class="sidebar-title">Pencarian</h3>
+                <div class="sidebar-item search-form">
+                    <form action="">
+                    <input type="text">
+                    <button type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                </div><!-- End sidebar search <formn--><br>
+                <h4 class="sidebar-title">Wisata/Wahana yang tersedia: </h4>
+                <div>
+                    <ol>
+                        @foreach($wisata as $wisatas)
+                        <li><h6 class="entry-title">{{$wisatas->NamaWisata}}</h6></li>
+                        @endforeach
+                    </ol>
                 </div><br><br><br><br>
-                <center>  GMT-Waktu Indonesia Barat (WIB) </center>
-                <div id="watch">
+                <center>  GMT - Waktu Indonesia Barat (WIB) </center>
+                <center><div id="watch"></center>
                 </div><br><br>
                 <p><a href="/">Sistem Informasi Desa Wisata Aek Situmandi</a></p>
             </div><!-- End sidebar -->

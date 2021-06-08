@@ -50,7 +50,7 @@
               <li><a href="/testimonials">Komentar dan Saran</a></li>
             </ul>
           </li>
-          <li><a href="/visidanmisi" class="active">Visi dan Misi</a></li>
+          <li><a href="/visidanmisi" class="active">Visi & Misi</a></li>
           <li><a href="/blog">Tempat Wisata</a></li>
 
           <li><a href="/contact">Contact Us</a></li>
@@ -69,10 +69,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Visi dan Misi</h2>
+          <h2>Visi & Misi</h2>
           <ol>
             <li><a href="/">Home</a></li>
-            <li>Visi dan Misi</li>
+            <li>Visi & Misi</li>
           </ol>
         </div>
 

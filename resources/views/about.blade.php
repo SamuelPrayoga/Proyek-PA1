@@ -86,8 +86,10 @@
         <div class="row content">
           <div class="col-lg-6">
             <h2>Tentang Kami :</h2>
-            <h3>Kami adalah Mahasiswa D-IV Teknologi Rekayasa Perangkat Lunak Institut Teknologi Del, Laguboti, Toba.</h3><br>
-            <h3 class="fst-italic">We are D-IV Students of Software Engineering Technology, Del Institute of Technology, Laguboti, Toba.</h3>
+            <h3>Aek/ Sungai Situmandi, salah satu dari dua sungai panjang yang membelah Lembah Silindung atau tepatnya berada di Kecamatan Tarutung Kabupaten Tapanuli Utara Sumut, direkomendasi oleh para penggiat olahraga arung jeram menjadi destinasi berkelas dunia.
+                Arus sungainya yang deras atau sekitar 120-150 meter kubik perdetik, masuk di level grade 3 plus hingga di grade 4 dari grade tertinggi yakni 5.</h3><br>
+            <h3 class="fst-italic">The Aek/Situmandi River, one of the two long rivers that divides the Silindung Valley or precisely located in Tarutung District, North Tapanuli Regency, North Sumatra, is recommended by white water rafting activists to become a world-class destination.
+The river currents are heavy, or about 120-150 cubic meters per second, entering the grade 3 plus level up to grade 4 from the highest grade of 5.</h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
@@ -109,12 +111,13 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Team</h2>
-          <p>Our Hardworking Team</p>
+          <h2>About Us</h2>
+          <p>Tentang Kami</p>
         </div>
 
         <section id="team" class="team ">
             <div class="container">
+<<<<<<< HEAD
 
               <div class="row">
 
@@ -132,88 +135,57 @@
                       </div>
                     </div>
                   </div>
+=======
+                <div>
+                    <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2181.107054571017!2d98.98057289115152!3d2.029250281139482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302e6f167f3a0e81%3A0x3d6459ccfbe5b10d!2sAek%20situmandi!5e1!3m2!1sid!2sid!4v1618674211144!5m2!1sid!2sid" ></iframe>
+>>>>>>> 6271f520fe65dd4fe09ed2c5e6d13dd77cbd8b18
                 </div>
-
-                <div class="col-lg-6 mt-4 mt-lg-0">
-                  <div class="member d-flex align-items-start">
-                    <div class="pic"><img src="img/team/Team-4.jpg" class="img-fluid" alt=""></div>
-                    <div class="member-info">
-                      <h4>Abram Wirayuda Pane</h4>
-                      <span>Programmer</span>
-                      <p class="fst-italic">Del Institute of Technology</p>
-                      <div class="social">
-                        <a href=" https://wa.me/qr/QXFBSFJQSN4OA1"><i class="ri-whatsapp-fill"></i></a>
-                        <a href="https://www.instagram.com/wirayudaabram/?hl=id"><i class="ri-instagram-fill"></i></a>
+                <br>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                      <div class="footer-info">
+                        <h3>Wisata Aek Situmandi</h3>
+                        <p>
+                          Kelurahan Hutabarat Partali Toruan <br>
+                          Kecamatan Tarutung<br><br>
+                          <strong>Phone:</strong> +6282272093950<br>
+                          <strong>Email:</strong> wisataaeksitumandi@gmail.com<br>
+                          <strong class="fst-italic">Partners:</strong>Del Institute of Technology
+                        </p>
                       </div>
                     </div>
-                  </div>
-                </div>
 
-                <div class="col-lg-6 mt-4">
-                  <div class="member d-flex align-items-start">
-                    <div class="pic"><img src="img/team/Team-3.jpg" class="img-fluid" alt=""></div>
-                    <div class="member-info">
-                      <h4>Maria C Sitanggang</h4>
-                      <span>System Analyst</span>
-                      <p class="fst-italic">Del Institute of Technology</p>
-                      <div class="social">
-                        <a href="https://web.facebook.com/mariasitanggang.sitanggang.7/"><i class="ri-facebook-fill"></i></a>
-                        <a href=" https://www.instagram.com/maria_chrisyanti/"><i class="ri-instagram-fill"></i></a>
-                        <a href=" https://api.whatsapp.com/send?phone=6282211239282"> <i class="ri-whatsapp-fill"></i> </a>
-                      </div>
+                    <div class="col-lg-2 col-md-6 footer-links">
+                      <h4>Useful Links:</h4>
+                      <ul>
+                        <li></i> <a href="/">Home</a></li>
+                        <li></i> <a href="/about">About us</a></li>
+                        <li></i> <a href="/strukturorganisasi">Struktur Organisasi</a></li>
+                        <li></i> <a href="/testimonials">Komentar dan Saran</a></li>
+                        <li></i> <a href="/visidanmisi">Visi & Misi</a></li>
+                        <li></i> <a href="/blog">Tempat Wisata</a></li>
+                        <li></i> <a href="/contact">Contact Us</a></li>
+                        <li></i> <a href="/sign-in">Login Admin</a></li>
+                      </ul>
                     </div>
-                  </div>
-                </div>
 
-                <div class="col-lg-6 mt-4">
-                  <div class="member d-flex align-items-start">
-                    <div class="pic"><img src="img/team/Team-2.jpg" class="img-fluid" alt=""></div>
-                    <div class="member-info">
-                      <h4>Ita Anjelly Sirait</h4>
-                      <span>Technical Document</span>
-                      <p class="fst-italic">Del Institute of Technology</p>
-                      <div class="social">
-                        <a href="https://api.whatsapp.com/send?phone=6281260444605"><i class="ri-whatsapp-fill"></i></a>
-                        <a href=" https://www.instagram.com/itaapsirait/"><i class="ri-instagram-fill"></i></a>
-                      </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                      <h4>Objek dan Fasilitas Wisata:</h4>
+                      <ol>
+                        <li></i> Goa boru Natumandi</a></li>
+                        <li></i> Wisata Budaya Batak Toba</a></li>
+                        <li></i> Wisata Air</a></li>
+                        <li></i> Wisata Alam</a></li>
+                        <li></i> Wisata Anak dan Refreshing</a></li>
+                      </ol>
                     </div>
-                  </div>
-                </div>
 
-                <div class="col-lg-6 mt-4">
-                  <div class="member d-flex align-items-start">
-                    <div class="pic"><img src="img/team/Team-6.jpeg" class="img-fluid" alt=""></div>
-                    <div class="member-info">
-                      <h4>Patuan Garcia Situmorang</h4>
-                      <span>Tester</span>
-                      <p class="fst-italic">Del Institute of Technology</p>
-                      <div class="social">
-                        <a href=" https://api.whatsapp.com/send?phone=6281286077482"><i class="ri-whatsapp-fill"></i></a>
-                        <a href=" https://m.facebook.com/patuan.gtr"><i class="ri-facebook-fill"></i></a>
-                        <a href="https://www.instagram.com/patuangs/"><i class="ri-instagram-fill"></i></a>
-                      </div>
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                      <h4>Developer Team :</h4>
+                      <p>Tim 10 PA 1 Institut Teknologi Del, Teknologi Rekayasa Perangkat Lunak, Institut Teknologi Del</p>
                     </div>
+
                   </div>
-                </div>
-
-                <div class="col-lg-6 mt-4">
-                  <div class="member d-flex align-items-start">
-                    <div class="pic"><img src="img/team/Team-5.jpeg" class="img-fluid" alt=""></div>
-                    <div class="member-info">
-                      <h4>Rosani Sitinjak</h4>
-                      <span>Designer</span>
-                      <p class="fst-italic">Del Institute of Technology</p>
-                      <div class="social">
-                        <a href="https://web.facebook.com/rosani.sitinjak/"><i class="ri-facebook-fill"></i></a>
-                        <a href="https://www.instagram.com/rosanisitinjak00/"><i class="ri-instagram-fill"></i></a>
-                        <a href="https://api.whatsapp.com/send?phone=6282294589927"> <i class="ri-whatsapp-fill"></i> </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
             </div>
           </section><!-- End Team Section -->
 
