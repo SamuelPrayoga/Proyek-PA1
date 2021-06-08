@@ -11,7 +11,7 @@ class WisataController extends Controller
 {
     public function index()
     {
-        $wisata = DB::table('datawisata')->paginate(3);
+        $wisata = DB::table('datawisata')->paginate(4);
         return view('blog', ['wisata' => $wisata]);
     }
 
