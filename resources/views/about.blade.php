@@ -117,8 +117,28 @@
 
         <section id="team" class="team ">
             <div class="container">
+<<<<<<< HEAD
+
+              <div class="row">
+
+                <div class="col-lg-6">
+                  <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="img/team/Team-1.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                      <h4>Samuel P. Tampubolon</h4>
+                      <span>Project Manager,Programmer</span>
+                      <p class="fst-italic">Del Institute of Technology</p>
+                      <div class="social">
+                        <a href="https://api.whatsapp.com/send?phone=6282272093950"><i class="ri-whatsapp-fill"></i></a>
+                        <a href="https://www.facebook.com/prayoga.tampubolon.9/"><i class="ri-facebook-fill"></i></a>
+                        <a href="https://www.instagram.com/samueltmp_/"><i class="ri-instagram-fill"></i></a>
+                      </div>
+                    </div>
+                  </div>
+=======
                 <div>
                     <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2181.107054571017!2d98.98057289115152!3d2.029250281139482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302e6f167f3a0e81%3A0x3d6459ccfbe5b10d!2sAek%20situmandi!5e1!3m2!1sid!2sid!4v1618674211144!5m2!1sid!2sid" ></iframe>
+>>>>>>> 6271f520fe65dd4fe09ed2c5e6d13dd77cbd8b18
                 </div>
                 <br>
                 <div class="row">
