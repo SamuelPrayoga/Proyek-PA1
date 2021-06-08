@@ -145,8 +145,9 @@
                 </div><br><br><br><br>
                 <center>  GMT - Waktu Indonesia Barat (WIB) </center>
                 <center><div id="watch"></center>
+                    <p><a href="/">Sistem Informasi Desa Wisata Aek Situmandi</a></p>
                 </div><br><br>
-                <p><a href="/">Sistem Informasi Desa Wisata Aek Situmandi</a></p>
+
             </div><!-- End sidebar -->
           </div><!-- End blog sidebar -->
         </div>
