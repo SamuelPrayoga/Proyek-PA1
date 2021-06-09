@@ -86,10 +86,10 @@
         <div class="row content">
           <div class="col-lg-6">
             <h2>Tentang Kami :</h2>
-            <h3>Aek/ Sungai Situmandi, salah satu dari dua sungai panjang yang membelah Lembah Silindung atau tepatnya berada di Kecamatan Tarutung Kabupaten Tapanuli Utara Sumut, direkomendasi oleh para penggiat olahraga arung jeram menjadi destinasi berkelas dunia.
-                Arus sungainya yang deras atau sekitar 120-150 meter kubik perdetik, masuk di level grade 3 plus hingga di grade 4 dari grade tertinggi yakni 5.</h3><br>
-            <h3 class="fst-italic">The Aek/Situmandi River, one of the two long rivers that divides the Silindung Valley or precisely located in Tarutung District, North Tapanuli Regency, North Sumatra, is recommended by white water rafting activists to become a world-class destination.
-                The river currents are heavy, or about 120-150 cubic meters per second, entering the grade 3 plus level up to grade 4 from the highest grade of 5.</h3>
+            <p>Aek/ Sungai Situmandi, salah satu dari dua sungai panjang yang membelah Lembah Silindung atau tepatnya berada di Kecamatan Tarutung Kabupaten Tapanuli Utara Sumut, direkomendasi oleh para penggiat olahraga arung jeram menjadi destinasi berkelas dunia.
+                Arus sungainya yang deras atau sekitar 120-150 meter kubik perdetik, masuk di level grade 3 plus hingga di grade 4 dari grade tertinggi yakni 5.</p>
+            <p class="fst-italic">The Aek/Situmandi River, one of the two long rivers that divides the Silindung Valley or precisely located in Tarutung District, North Tapanuli Regency, North Sumatra, is recommended by white water rafting activists to become a world-class destination.
+                The river currents are heavy, or about 120-150 cubic meters per second, entering the grade 3 plus level up to grade 4 from the highest grade of 5.</p>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
@@ -124,52 +124,7 @@
                     <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2181.107054571017!2d98.98057289115152!3d2.029250281139482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302e6f167f3a0e81%3A0x3d6459ccfbe5b10d!2sAek%20situmandi!5e1!3m2!1sid!2sid!4v1618674211144!5m2!1sid!2sid" ></iframe>
 
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                      <div class="footer-info">
-                        <h3>Wisata Aek Situmandi</h3>
-                        <p>
-                          Kelurahan Hutabarat Partali Toruan <br>
-                          Kecamatan Tarutung<br><br>
-                          <strong>Phone:</strong> +6282272093950<br>
-                          <strong>Email:</strong> wisataaeksitumandi@gmail.com<br>
-                          <strong class="fst-italic">Partners:</strong>Del Institute of Technology
-                        </p>
-                      </div>
-                    </div>
 
-                    <div class="col-lg-2 col-md-6 footer-links">
-                      <h4>Useful Links:</h4>
-                      <ul>
-                        <li></i> <a href="/">Home</a></li>
-                        <li></i> <a href="/about">About us</a></li>
-                        <li></i> <a href="/strukturorganisasi">Struktur Organisasi</a></li>
-                        <li></i> <a href="/testimonials">Komentar dan Saran</a></li>
-                        <li></i> <a href="/visidanmisi">Visi & Misi</a></li>
-                        <li></i> <a href="/blog">Tempat Wisata</a></li>
-                        <li></i> <a href="/contact">Contact Us</a></li>
-                        <li></i> <a href="/sign-in">Login Admin</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                      <h4>Objek dan Fasilitas Wisata:</h4>
-                      <ol>
-                        <li></i> Goa boru Natumandi</a></li>
-                        <li></i> Wisata Budaya Batak Toba</a></li>
-                        <li></i> Wisata Air</a></li>
-                        <li></i> Wisata Alam</a></li>
-                        <li></i> Wisata Anak dan Refreshing</a></li>
-                      </ol>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 footer-newsletter">
-                      <h4>Developer Team :</h4>
-                      <p>Tim 10 PA 1 Institut Teknologi Del, Teknologi Rekayasa Perangkat Lunak, Institut Teknologi Del</p>
-                    </div>
-
-                  </div>
             </div>
           </section><!-- End Team Section -->
 
@@ -180,9 +135,58 @@
           <h2>Hasil Kerjasama :</h2>
           <p>Kelurahan Partali Toruan, Kabupaten Tapanuli Utara & Institut Teknologi Del (IT DEL)</p>
         </div>
+
+
     </section><!-- End Our Skills Section -->
 
-  </main><!-- End #main -->
+  </main>
+
+
+  <div class="row bg-secondary">
+    <div class="col-lg-3 col-md-6">
+      <div class="footer-info">
+        <h3 class="text-white bg-secondary">Wisata Aek Situmandi</h3>
+        <p>
+          Kelurahan Hutabarat Partali Toruan <br>
+          Kecamatan Tarutung<br><br>
+          <strong>Phone:</strong> +6282272093950<br>
+          <strong>Email:</strong> wisataaeksitumandi@gmail.com<br>
+          <strong class="fst-italic">Partners:</strong>Del Institute of Technology
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-6 footer-links">
+      <h4 class="text-white"">Useful Links:</h4>
+      <ul>
+        <li></i> <a href="/">Home</a></li>
+        <li></i> <a href="/about">About us</a></li>
+        <li></i> <a href="/strukturorganisasi">Struktur Organisasi</a></li>
+        <li></i> <a href="/testimonials">Komentar dan Saran</a></li>
+        <li></i> <a href="/visidanmisi">Visi & Misi</a></li>
+        <li></i> <a href="/blog">Tempat Wisata</a></li>
+        <li></i> <a href="/contact">Contact Us</a></li>
+        <li></i> <a href="/sign-in">Login Admin</a></li>
+      </ul>
+    </div>
+
+    <div class="col-lg-3 col-md-6 footer-links">
+      <h4 class="text-white bg-secondary">Objek & Fasilitas Wisata:</h4>
+      <ol>
+        <li></i> Goa boru Natumandi</a></li>
+        <li></i> Wisata Budaya Batak Toba</a></li>
+        <li></i> Wisata Air</a></li>
+        <li></i> Wisata Alam</a></li>
+        <li></i> Wisata Anak dan Refreshing</a></li>
+      </ol>
+    </div>
+
+    <div class="col-lg-4 col-md-6 footer-newsletter">
+      <h4 class="text-white bg-secondary">Developer Team :</h4>
+      <p>Tim 10 PA 1 Institut Teknologi Del, Teknologi Rekayasa Perangkat Lunak, Institut Teknologi Del</p>
+    </div>
+
+  </div><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">

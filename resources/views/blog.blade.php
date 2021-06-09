@@ -112,6 +112,18 @@
                 <p>
                     {{$wisatas->InfoWisata}}
                 </p>
+                <table>
+                    <tr>
+                        <td><strong>Published at</strong></td>
+                        <td>:</td>
+                        <td>{{$wisatas->created_at}}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Updated at</strong></td>
+                        <td>:</td>
+                        <td>{{$wisatas->updated_at}}</td>
+                    </tr>
+                </table>
               </div>
 
             </article>
@@ -130,8 +142,9 @@
                 <!--Link Kategori-->
                 <h3 class="sidebar-title">Pencarian</h3>
                 <div class="sidebar-item search-form">
-                    <form action="">
-                    <input type="text">
+                    <form action="/blog" method="POST">
+                        {{ csrf_field() }}
+                    <input type="search" name="cari">
                     <button type="submit"><i class="bi bi-search"></i></button>
                     </form>
                 </div><!-- End sidebar search <formn--><br>

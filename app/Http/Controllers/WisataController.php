@@ -11,7 +11,14 @@ class WisataController extends Controller
 {
     public function index()
     {
-        $wisata = DB::table('datawisata')->paginate(4);
+        $wisata = DB::table('datawisata')->orderBy('created_at', 'DESC')->paginate(7);
+        return view('blog', ['wisata' => $wisata]);
+    }
+
+    public function pencarian(Request $request)
+    {
+
+        $wisata = DB::table('datawisata')->where('NamaWisata', 'LIKE', '%' . $request->cari . '%')->paginate(7);
         return view('blog', ['wisata' => $wisata]);
     }
 
