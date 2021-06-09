@@ -148,7 +148,7 @@
                     <button type="submit"><i class="bi bi-search"></i></button>
                     </form>
                 </div><!-- End sidebar search <formn--><br>
-                <h4 class="sidebar-title">Wisata/Wahana yang tersedia: </h4>
+                <h4 class="sidebar-title">Keywords: </h4>
                 <div>
                     <ol>
                         @foreach($wisata as $wisatas)
